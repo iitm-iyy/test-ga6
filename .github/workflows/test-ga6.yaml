@@ -1,0 +1,12 @@
+name: test-ga6
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 21f3001142@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
